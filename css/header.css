@@ -1,0 +1,41 @@
+.header h1 {
+    position: absolute;
+    text-align: center;
+    width: 409px;
+    height: 38px;
+    left: 496px;
+    top: 100px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+.header p {
+    position: absolute;
+    text-align: center;
+    width: 363px;
+    height: 19px;
+    left: 519px;
+    top: 195px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.line {
+    position: absolute;
+    width: 64px;
+    height: 0px;
+    left: 668px;
+    top: 163px;
+
+    border: 1px solid #D98943;
+}

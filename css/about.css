@@ -1,0 +1,104 @@
+.row {
+    margin: auto;
+}
+
+.lamp {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #d98943;
+    border-radius: 50%;
+    display: flex;
+    left: 283px;
+    top: 281px;
+}
+
+.lamp img {
+    margin: auto;
+}
+
+.keyboard {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #d98943;
+    border-radius: 50%;
+    display: flex;
+    left: 665px;
+    top: 281px; 
+}
+
+.keyboard img {
+    margin: auto;
+}
+
+.lightning {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #d98943;
+    border-radius: 50%;
+    display: flex;
+    left: 1047px;
+    top: 281px; 
+}
+
+.lightning img {
+    margin: auto;
+}
+
+.row h2 {
+    position: absolute;
+    top: 381px;
+    width: 189px;
+    height: 29px;   
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #333333; 
+}
+
+.row p {
+    position: absolute;
+    top: 426px;
+    width: 350px;
+    height: 60px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.leftrow h2 {
+    left: 224px;
+}
+
+.leftrow p {
+    left: 143px;
+}
+
+.centrrow h2 {
+    left: 606px;
+}
+
+.centrrow p {
+    margin: auto;
+}
+
+.rightrow h2 {
+    left: 988px;
+}
+
+.rightrow p {
+    left: 907px;
+}
