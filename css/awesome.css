@@ -1,0 +1,76 @@
+.awesome {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.awesome-title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #212121;
+  text-align: center;
+}
+
+.awesome-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #d98943;
+  background-color: #d98943;
+  margin: 30px auto;
+}
+
+.awesome-subtitle h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #868788;
+  text-align: center;
+}
+
+.awesome-row {
+  display: flex;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.awesome-row-item {
+  text-align: center;
+  margin: 0px auto 15px;
+}
+
+.awesome-img {
+  border: 1px solid #d98943;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awesome-row-item-title h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 60px 30px;
+  color: #333333;
+}
+
+.awesome-row-item-discription p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  width: 350px;
+  color: #000000;
+}

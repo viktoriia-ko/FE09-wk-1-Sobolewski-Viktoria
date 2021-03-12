@@ -1,0 +1,137 @@
+.customers {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.customers-title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 66px;
+  line-height: 42px;
+
+  color: #212121;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.customers-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #d98943;
+  background-color: #d98943;
+  margin: 34px auto;
+}
+
+.customers-subtitle h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #868788;
+  text-align: center;
+}
+
+.customers-row {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.customers-row-item {
+  text-align: center;
+  margin: 0px 15px 15px;
+  max-width: 298px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.customers-discription h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.customers-discription {
+  display: flex;
+  align-items: center;
+  padding: 9px 22px 6px 23px;
+  color: #86878b;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.customers-discription::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 17px solid #e2e2e2;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 47px;
+}
+
+.customers-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.customers-name h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+}
+
+.customers-name::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url("../image/customers-image.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 45px;
+}
+
+.customers-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customers-post h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  text-align: center;
+}
+
+.customers-post {
+  margin-left: 150px;
+}
