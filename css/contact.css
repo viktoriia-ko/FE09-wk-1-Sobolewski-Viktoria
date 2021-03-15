@@ -30,8 +30,51 @@
   text-align: center;
 }
 
+.contact-data-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.contact-data-message-list {
+  list-style: none;
+}
+
+.contact-data-list-items {
+  list-style: none;
+}
+
+.contact-data-list-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.contact-data-message-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.contact-data-list-item img {
+  margin: 32px 0;
+}
+
+.contast-data-message-png img {
+  margin: 216px 0 32px;
+}
+
 .contact-message {
-  margin: 57px auto 0;
+  margin: 37px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
