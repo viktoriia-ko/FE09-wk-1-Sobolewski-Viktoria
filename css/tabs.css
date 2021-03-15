@@ -1,0 +1,88 @@
+.tabs {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.tabs-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tabs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-list-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 45px 35px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tabs-list-item:hover {
+  background-color: #ec7979;
+}
+
+.tabs-text {
+  max-width: 570px;
+  margin-left: 100px;
+}
+
+.tabs-text-title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.tabs-text-discription h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-top: 58px;
+}
+
+.tabs-text-discription h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-top: 20px;
+}
+
+.tabs-download {
+  margin: 100px auto 0;
+}
+
+.tabs-download a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 11px 31px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  background-color: #ec7979;
+}

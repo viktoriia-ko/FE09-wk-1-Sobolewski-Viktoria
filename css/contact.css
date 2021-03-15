@@ -1,59 +1,43 @@
-.axure {
+.contact {
   width: 100%;
   padding: 100px 0;
-  background-image: url("../image/bg\ image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-.axure:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.55);
-}
-
-.axure-title h2 {
+.contact-title h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 42px;
-
-  color: #ffffff;
+  color: #212121;
   text-align: center;
 }
-.axure-line {
+.contact-line {
   max-width: 64px;
   height: 2px;
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
+  border: 1px solid #ec7979;
+  background-color: #ec7979;
   margin: 34px auto;
 }
 
-.axure-subtitle h3 {
+.contact-subtitle h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 18.78px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
   text-align: center;
 }
 
-.axure-download {
+.contact-message {
   margin: 57px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.axure-download a {
+.contact-message a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -61,8 +45,8 @@
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-  max-width: 135px;
-  padding: 11px 26px;
+  padding: 11px 31px;
   text-align: center;
   border: 1px solid #ffffff;
+  background-color: #ec7979;
 }
