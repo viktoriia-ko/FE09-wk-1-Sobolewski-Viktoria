@@ -52,12 +52,12 @@
   font-size: 35px;
 }
 
-.fab:hover {
+.size1:hover {
   color: #333333;
   transform: scale(1.3);
 }
 
-.fas:hover {
+.size1:hover {
   color: #333333;
   transform: scale(1.3);
 }

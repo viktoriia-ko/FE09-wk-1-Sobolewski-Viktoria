@@ -24,13 +24,15 @@
   font-size: 18px;
 }
 
-/*.fab {
-  font-size: 23px;
+.size2:hover {
+  color: #333333;
+  transform: scale(1.3);
 }
 
-.fas {
-  font-size: 23px;
-}*/
+.size2:hover {
+  color: #333333;
+  transform: scale(1.3);
+}
 
 .footer-copyright p {
   font-family: Open Sans;
