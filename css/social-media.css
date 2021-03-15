@@ -50,6 +50,7 @@
   color: #86878b;
   font-family: "Font Awesome 5 Free";
   font-size: 35px;
+  transition: 0.3s;
 }
 
 .size1:hover {
