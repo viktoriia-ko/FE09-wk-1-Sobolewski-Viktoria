@@ -1,0 +1,132 @@
+.axit {
+  width: 100%;
+  padding: 100px 0;
+  background-image: url("../image/axit-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.axit:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.axit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.axit-name-title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 32px;
+  max-width: 544px;
+}
+.axit-name-line {
+  max-width: 64px;
+  height: 2px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 40px 0 39px;
+}
+
+.axit-name-subtitle h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  max-width: 50%;
+}
+
+.axit-name-download {
+  margin: 57px 0px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.axit-name-download a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  max-width: 135px;
+  padding: 11px 26px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+.axit-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 370px;
+}
+
+.axit-form-list li {
+  list-style: none;
+}
+
+.axit-form-list-item1 {
+  background-color: #ffffff;
+  align-items: center;
+  margin: 20px 59px 60px;
+}
+
+.axit-form-list-item2 {
+  background-color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin-left: 59px;
+}
+
+.axit-form-line {
+  margin-top: 16px;
+  margin-left: 59px;
+  margin-bottom: 19px;
+}
+
+.axit-form-list-item3 {
+  background-color: #ec7979;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+.axit-form-list-item3 a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}

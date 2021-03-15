@@ -14,7 +14,6 @@
 
   color: #212121;
   text-align: center;
-  padding-top: 100px;
 }
 
 .pricing-line {
@@ -104,10 +103,6 @@
   border: 1px solid #e5e5e5;
   padding-top: 17px;
   padding-bottom: 14px;
-}
-
-.selected {
-  background-color: #d98943;
 }
 
 .pricing-row-item4 {

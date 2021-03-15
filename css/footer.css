@@ -1,0 +1,44 @@
+.footer {
+  width: 100%;
+  padding: 25px 0 15px;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.footer-sm-icon-list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-sm-icon {
+  list-style: none;
+  margin: 0px 24px;
+}
+
+.size2 {
+  color: #86878b;
+  font-family: "Font Awesome 5 Free";
+  font-size: 18px;
+}
+
+/*.fab {
+  font-size: 23px;
+}
+
+.fas {
+  font-size: 23px;
+}*/
+
+.footer-copyright p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 18px auto 0;
+}

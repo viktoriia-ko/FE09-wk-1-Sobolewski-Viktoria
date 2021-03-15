@@ -27,7 +27,7 @@
 
   color: #ffffff;
   text-align: center;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
 }
 .axure-line {
   max-width: 64px;
@@ -48,7 +48,7 @@
 }
 
 .axure-download {
-  margin: 57px 300px;
+  margin: 57px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;

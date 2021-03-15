@@ -9,7 +9,6 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 42px;
-
   color: #212121;
   text-align: center;
 }
@@ -53,6 +52,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.awesome-img i {
+  color: #f38627;
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px;
+}
+
+.awesome-img i {
+  color: #f38627;
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
 }
 
 .awesome-row-item-title h3 {

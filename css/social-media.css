@@ -1,0 +1,61 @@
+.social-media {
+  width: 100%;
+  padding: 14px 0 17px;
+  background-color: #f8efef;
+  background-size: cover;
+}
+
+.social-media-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.social-media-title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.social-media-subtitle h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-top: 14px;
+  max-width: 365px;
+}
+
+.social-media-icon-list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.social-media-icon {
+  list-style: none;
+  margin: 0px 24px;
+}
+
+.size1 {
+  color: #86878b;
+  font-family: "Font Awesome 5 Free";
+  font-size: 35px;
+}
+
+.fab:hover {
+  color: #333333;
+}
+
+.fas:hover {
+  color: #333333;
+}

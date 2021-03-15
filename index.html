@@ -10,16 +10,83 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header>
-
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-item"><a href="#feautures" class="menu-list-link">Feautures</a></li>
+            <li class="menu-list-item"><a href="#about" class="menu-list-link">About</a></li>
+            <li class="menu-list-item"><a href="#pricing" class="menu-list-link">Pricing</a></li>
+            <li class="menu-list-item"><a href="#reviews" class="menu-list-link">Reviews</a></li>
+            <li class="menu-list-item"><a href="#contact" class="menu-list-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <section class="axit">
+      <div class="container">
+        <div class="axit-row">
+          <div class="axit-name">
+            <div class="axit-name-png"><img src="/image/axit-title.png"></div>
+            <div class="axit-name-title">
+              <h2>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+            </div>
+            <div class="axit-name-line"></div>
+            <div class="axit-name-subtitle">
+              <h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </h3>
+            </div>
+            <div class="axit-name-download">
+              <a href="#">Download</a>
+            </div>
+          </div>
+          <div class="axit-form">
+            <ul class="axit-form-list">
+              <li class="axit-form-list-item1"><img src="/image/axit-text-free.png"></li>
+              <li class="axit-form-list-item2">Name</li>
+              <li class="axit-form-line"><img src="/image/axit-form-line.png"></li>
+              <li class="axit-form-list-item2">Email</li>
+              <li class="axit-form-line"><img src="/image/axit-form-line.png"></li>
+              <li class="axit-form-list-item2">Password</li>
+              <li class="axit-form-line"><img src="/image/axit-form-line.png"></li>
+              <li class="axit-form-list-item3"><a href="#">Get Started</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="social-media">
+      <div class="container">
+        <div class="social-media-row">
+          <div class="social-media-name">
+            <div class="social-media-title"><h2>Social Media</h2></div>
+            <div class="social-media-subtitle"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h3></div>
+          </div>
+          <div class="social-media-icons">
+            <ul class="social-media-icon-list">
+              <li class="social-media-icon"><i class="fab fa-facebook-f size1"></i></li>
+              <li class="social-media-icon"><i class="fab fa-twitter size1"></i></li>
+              <li class="social-media-icon"><i class="fab fa-google-plus size1"></i></li>
+              <li class="social-media-icon"><i class="fab fa-pinterest size1"></i></li>
+              <li class="social-media-icon"><i class="fab fa-instagram size1"></i></li> 
+              <li class="footer-sm-icon"><i class="fab fa-stumbleupon size1"></i></li>  
+              <li class="footer-sm-icon"><i class="fas fa-rss size1"></i></li>        
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="awesome">
       <div class="container">
         <div class="awesome-title">
@@ -31,8 +98,7 @@
         </div>
         <div class="awesome-row">
           <div class="awesome-row-item">
-            <div class="awesome-img">
-              <img src="image/icon light.png" />
+            <div class="awesome-img"><i class="far fa-lightbulb"></i>
             </div>
             <div class="awesome-row-item-title">
               <h3>Thoughtful Design</h3>
@@ -46,8 +112,7 @@
             </div>
           </div>
           <div class="awesome-row-item">
-            <div class="awesome-img">
-              <img src="image/icon keyboard.png" />
+            <div class="awesome-img"><i class="far fa-keyboard"></i>
             </div>
             <div class="awesome-row-item-title">
               <h3>Well Crafted</h3>
@@ -61,8 +126,7 @@
             </div>
           </div>
           <div class="awesome-row-item">
-            <div class="awesome-img">
-              <img src="image/icon lightning.png" />
+            <div class="awesome-img"><i class="fas fa-bolt"></i>
             </div>
             <div class="awesome-row-item-title">
               <h3>Easy to Customize</h3>
@@ -80,7 +144,7 @@
     </section>
     <section class="pricing">
       <div class="container">
-        <div class="pricing-title">
+        <div class="pricing-title" id="pricing">
           <h2>PRICING OPTIONS</h2>
         </div>
         <div class="pricing-line"></div>
@@ -105,7 +169,7 @@
             <ul>
               <li class="pricing-row-item1">Optima</li>
               <li class="pricing-row-item2">$20</li>
-              <li class="pricing-row-item3 selected">Free for life</li>
+              <li class="pricing-row-item3">Free for life</li>
               <li class="pricing-row-item4">1 gb of space</li>
               <li class="pricing-row-item4">1 gb of space</li>
               <li class="pricing-row-item4">1 gb of space</li>
@@ -132,7 +196,7 @@
     </section>
     <section class="customers">
       <div class="container">
-        <div class="customers-title">
+        <div class="customers-title" id="reviews">
           <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
         </div>
         <div class="customers-line"></div>
@@ -149,8 +213,12 @@
               </h3>
             </div>
             <div class="customers-card">
-              <div class="customers-name"><h4>Jeremy H.</h4></div>
-              <div class="customers-post"><h5>Manager</h5></div>
+              <div class="customers-card-jpg"><img src="/image/customers-image.jpg">
+              </div>
+              <div class="customers-card-name">
+                <div class="customers-name"><h4>Jeremy H.</h4></div>
+                <div class="customers-post"><h5>Manager</h5></div>
+              </div>
             </div>
           </div>
           <div class="customers-row-item">
@@ -162,8 +230,12 @@
               </h3>
             </div>
             <div class="customers-card">
-              <div class="customers-name"><h4>Jeremy H.</h4></div>
-              <div class="customers-post"><h5>Manager</h5></div>
+              <div class="customers-card-jpg"><img src="/image/customers-image.jpg">
+              </div>
+              <div class="customers-card-name">
+                <div class="customers-name"><h4>Jeremy H.</h4></div>
+                <div class="customers-post"><h5>Manager</h5></div>
+              </div>
             </div>
           </div>
           <div class="customers-row-item">
@@ -175,8 +247,12 @@
               </h3>
             </div>
             <div class="customers-card">
-              <div class="customers-name"><h4>Jeremy H.</h4></div>
-              <div class="customers-post"><h5>Manager</h5></div>
+              <div class="customers-card-jpg"><img src="/image/customers-image.jpg">
+              </div>
+              <div class="customers-card-name">
+                <div class="customers-name"><h4>Jeremy H.</h4></div>
+                <div class="customers-post"><h5>Manager</h5></div>
+              </div>
             </div>
           </div>
           </div>
@@ -201,8 +277,22 @@
       </div>
     </section>
 
-    <footer>
-
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-sm-icons">
+          <ul class="footer-sm-icon-list">
+            <li class="footer-sm-icon"><i class="fab fa-facebook-f size2"></i></li>
+            <li class="footer-sm-icon"><i class="fab fa-twitter size2"></i></li>
+            <li class="footer-sm-icon"><i class="fab fa-google-plus size2"></i></li>
+            <li class="footer-sm-icon"><i class="fab fa-pinterest size2"></i></li>
+            <li class="footer-sm-icon"><i class="fab fa-instagram size2"></i></li>  
+            <li class="footer-sm-icon"><i class="fab fa-stumbleupon size2"></i></li>  
+            <li class="footer-sm-icon"><i class="fas fa-rss size2"></i></li>   
+          </ul>
+        </div>
+        <div class="footer-copyright"><p>&copy; 2015 Axure Themes</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
