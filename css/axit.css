@@ -83,50 +83,53 @@
   max-width: 370px;
 }
 
-.axit-form-list li {
-  list-style: none;
+.form-content {
+  padding: 0 59px;
 }
 
-.axit-form-list-item1 {
-  background-color: #ffffff;
-  align-items: center;
-  margin: 20px 59px 60px;
+.form-content-title h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333;
+  padding: 15px 0 45px;
 }
 
-.axit-form-list-item2 {
-  background-color: #ffffff;
+.form-content-title-color {
+  color: #ec7979;
+}
+
+.form-content-item {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+  align-items: left;
   color: #bdbdbd;
-  margin-left: 59px;
 }
 
-.axit-form-line {
-  margin-top: 16px;
-  margin-left: 59px;
-  margin-bottom: 19px;
+input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  display: block;
+  width: 100%;
 }
 
-.axit-form-list-item3 {
-  background-color: #ec7979;
-  border-radius: 0 0 8px 8px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 20px 0;
-  margin-top: 60px;
-}
-
-.axit-form-list-item3 a {
-  text-decoration: none;
+button {
+  width: 100%;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 54px;
+  text-align: center;
   color: #ffffff;
+  background-color: #ec7979;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: 30px;
 }
