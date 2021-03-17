@@ -30,66 +30,75 @@
   text-align: center;
 }
 
-.contact-data-row {
+.contact-form-content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 90px;
+  margin: 90px -15px 68px;
 }
 
-.contact-data-message-list {
-  list-style: none;
+.content-data {
+  max-width: 478px;
+  flex-grow: 1;
 }
 
-.contact-data-list-items {
-  list-style: none;
+.content-message {
+  max-width: 478px;
+  flex-grow: 1;
 }
 
-.contact-data-list-item {
+.content-data-item {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  text-align: left;
+  align-items: left;
   color: #bdbdbd;
+  width: 100%;
 }
 
-.contact-data-message-text {
+.content-message-item {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  text-align: left;
+  align-items: left;
   color: #bdbdbd;
+  margin: 0 15px;
 }
 
-.contact-data-list-item img {
-  margin: 32px 0;
-}
-
-.contast-data-message-png img {
-  margin: 216px 0 32px;
-}
-
-.contact-message {
-  margin: 37px auto 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-message a {
+.contact-form-button {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 11px 31px;
+  line-height: 54px;
   text-align: center;
-  border: 1px solid #ffffff;
+  color: #ffffff;
   background-color: #ec7979;
+  border: none;
+  display: block;
+  margin: 0 auto 0;
+  padding: 0px 31px;
+}
+
+.content-data-item input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  display: block;
+  width: 100%;
+  line-height: 32px;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  display: block;
+  width: 100%;
+  resize: none;
+  height: 216px;
+  overflow: scroll;
 }

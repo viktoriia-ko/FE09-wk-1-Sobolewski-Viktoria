@@ -112,14 +112,15 @@
   color: #bdbdbd;
 }
 
-input {
+.form-content-item input {
   border: none;
   border-bottom: 1px solid #bdbdbd;
   display: block;
   width: 100%;
+  line-height: 16px;
 }
 
-button {
+.axit-form-button {
   width: 100%;
   font-family: "Open Sans";
   font-style: normal;

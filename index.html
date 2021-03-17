@@ -66,8 +66,8 @@
                   <input type="password" name="form-content-item"><br><br>
                 </div>
               </div>
-              <button class="form-content">Get Started</button>
-
+            </form>
+              <button type="submit" class="axit-form axit-form-button">Get Started</button>
           </div>
         </div>
       </div>
@@ -314,36 +314,38 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h3>
         </div>
-        <div class="contact-data-row">
-          <div class="contact-data-list">
-            <ul class="contact-data-list-items">
-              <li class="contact-data-list-item">Name</li>
-              <li class="contact-data-list-item"><img src="/image/contact-line.png"></li>
-              <li class="contact-data-list-item">Email</li>
-              <li class="contact-data-list-item"><img src="/image/contact-line.png"></li>
-              <li class="contact-data-list-item">Password</li>
-              <li class="contact-data-list-item"><img src="/image/contact-line.png"></li>
-            </ul>
+        <form class="contact-form" action="#" method="post">
+          <div class="contact-form-content">
+            <div class="content-data">
+              <div class="content-data-item">
+                <label for="form-contact-content-item">Name</label>
+                <input type="name" name="form-contact-content-item"><br><br>
+              </div>
+              <div class="content-data-item">
+                <label for="form-contact-content-item">Email</label>
+                <input type="email" name="form-contact-content-item"><br><br>
+              </div>
+              <div class="content-data-item">
+                <label for="form-contact-content-item">Password</label>
+                <input type="password" name="form-content-item"><br><br>
+              </div>
+            </div>
+            <div class="content-message">
+              <div class="content-message-item">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="contact-message" rows="5" cols="33"></textarea>
+              </div>
+            </div>
           </div>
-          <div class="contact-data-message">
-            <ul class="contact-data-message-list">
-              <li class="contact-data-message-text">Message</li>
-              <li class="contast-data-message-png"><img src="/image/contact-line.png">
-            </li>
-            </ul>
-          </div>
-        </div>
-        <div class="contact-message">
-          <a href="#">Send Message</a>
-        </div>
-      </div>
+        </form>        
+        <button class="contact-message contact-form-button" type="submit">Send Message</button>
     </section>
 
     <footer class="footer">
       <div class="container">
         <div class="footer-sm-icons">
           <ul class="footer-sm-icon-list">
-            <li class="footer-sm-icon"><a href="https://www.facebook.com/""><i class="fab fa-facebook-f size2"></i></a></li>
+            <li class="footer-sm-icon"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f size2"></i></a></li>
             <li class="footer-sm-icon"><a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter size2"></i></a></li>
             <li class="footer-sm-icon"><a href="https://myaccount.google.com/profile"><i class="fab fa-google-plus size2"></i></a></li>
             <li class="footer-sm-icon"><a href="https://www.pinterest.com/"><i class="fab fa-pinterest size2"></i></li>
