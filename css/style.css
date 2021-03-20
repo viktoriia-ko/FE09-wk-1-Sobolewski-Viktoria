@@ -16,9 +16,148 @@
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 0.9375rem;
   max-width: 1170px;
   margin: auto;
   z-index: 1;
   position: relative;
+}
+
+@media screen and (max-width: 1107px) {
+  .pricing-row {
+    margin-top: 0;
+  }
+  .pricing-row-list {
+    margin-bottom: 0;
+    margin-top: 3rem;
+  }
+  .awesome-row {
+    margin-top: 0;
+  }
+
+  .awesome-row-item {
+    margin-top: 3rem;
+  }
+  .contact-form-content {
+    display: flex;
+    justify-content: center;
+  }
+  .tabs-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tabs-png {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  html {
+    font-size: 0.875rem;
+  }
+
+  .container {
+    max-width: 718px;
+  }
+
+  .axit-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media-icons {
+    margin-top: 2rem;
+  }
+
+  .customers-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 0;
+  }
+  .customers-row-item {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .tabs-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  .tabs-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .tabs-text {
+    margin-top: 3rem;
+  }
+
+  .tabs-png {
+    margin: 4rem 4rem 0;
+  }
+}
+@media screen and (max-width: 476px) {
+  html {
+    font-size: 0.688rem;
+  }
+  .menu-list li {
+    display: none;
+  }
+  .menu-list::before {
+    top: -0.7rem;
+    left: 0;
+  }
+}
+@media screen and (max-width: 393px) {
+  .container {
+    max-width: 360px;
+  }
+  html {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 337px) {
+  .container {
+    max-width: 290px;
+  }
+  html {
+    overflow-x: hidden;
+    font-size: 0.563rem;
+  }
+  .size1 {
+    font-size: 1.5rem;
+  }
+  .tabs {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 277) {
+  html {
+    font-size: 0.4rem;
+  }
+  .social-media-icon-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-media-icon {
+    margin: 0;
+  }
 }

@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  padding: 25px 0 15px;
+  padding: 1.5625rem 00.9375rem;
   background-color: #000000;
   background-size: cover;
 }
@@ -15,13 +15,13 @@
 
 .footer-sm-icon {
   list-style: none;
-  margin: 0px 24px;
+  margin: 0rem 1.5rem;
 }
 
 .size2 {
   color: #86878b;
   font-family: "Font Awesome 5 Free";
-  font-size: 18px;
+  font-size: 1.125rem;
   transition: 0.3s;
 }
 
@@ -39,9 +39,9 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  margin: 18px auto 0;
+  margin: 1.125rem auto 0;
 }

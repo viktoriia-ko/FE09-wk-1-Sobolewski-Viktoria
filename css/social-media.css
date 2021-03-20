@@ -1,6 +1,6 @@
 .social-media {
   width: 100%;
-  padding: 14px 0 17px;
+  padding: 0.875rem 0 1.0625rem;
   background-color: #f8efef;
   background-size: cover;
 }
@@ -17,8 +17,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #333333;
 }
 
@@ -26,11 +26,11 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #86878b;
-  margin-top: 14px;
-  max-width: 365px;
+  margin-top: 0.875rem;
+  max-width: 22.8125rem;
 }
 
 .social-media-icon-list {
@@ -43,13 +43,13 @@
 
 .social-media-icon {
   list-style: none;
-  margin: 0px 24px;
+  margin: 0rem 1.5rem;
 }
 
 .size1 {
   color: #86878b;
   font-family: "Font Awesome 5 Free";
-  font-size: 35px;
+  font-size: 2.1875rem;
   transition: 0.3s;
 }
 

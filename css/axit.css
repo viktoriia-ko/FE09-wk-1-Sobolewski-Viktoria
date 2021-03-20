@@ -1,6 +1,6 @@
 .axit {
   width: 100%;
-  padding: 100px 0;
+  padding: 6.25rem 0;
   background-image: url("../image/axit-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -27,37 +27,50 @@
 }
 
 .axit-name-title h1 {
+  font-family: "Roboto", "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.75rem;
+  line-height: 4.375rem;
+  color: #ffffff;
+}
+
+.axit-name-title-color {
+  color: #ec7979;
+}
+
+.axit-name-subtitle h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   color: #ffffff;
   text-align: left;
-  padding-top: 32px;
-  max-width: 544px;
+  padding-top: 2rem;
+  max-width: 34rem;
 }
 .axit-name-line {
-  max-width: 64px;
+  max-width: 4rem;
   height: 2px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  margin: 40px 0 39px;
+  margin: 2.5rem 02.4375rem;
 }
 
-.axit-name-subtitle h3 {
+.axit-name-discription h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 18.78px;
+  font-size: 1rem;
+  line-height: 1.125rem;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   max-width: 50%;
 }
 
 .axit-name-download {
-  margin: 57px 0px;
+  margin: 3.5625rem 0rem;
   display: flex;
   justify-content: flex-start;
   text-align: center;
@@ -67,12 +80,12 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   color: #ffffff;
   text-decoration: none;
-  max-width: 135px;
-  padding: 11px 26px;
+  max-width: 8.4375rem;
+  padding: 0.6875rem 1.625rem;
   text-align: center;
   border: 1px solid #ffffff;
 }
@@ -80,22 +93,22 @@
 .axit-form {
   background-color: #ffffff;
   border-radius: 8px;
-  max-width: 370px;
+  max-width: 23.125rem;
 }
 
 .form-content {
-  padding: 0 59px;
+  padding: 0 3.6875rem;
 }
 
 .form-content-title h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   text-align: center;
   color: #333333;
-  padding: 15px 0 45px;
+  padding: 0.9375rem 0 2.8125rem;
 }
 
 .form-content-title-color {
@@ -106,8 +119,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   align-items: left;
   color: #bdbdbd;
 }
@@ -117,7 +130,7 @@
   border-bottom: 1px solid #bdbdbd;
   display: block;
   width: 100%;
-  line-height: 16px;
+  margin-top: 0.625rem;
 }
 
 .axit-form-button {
@@ -125,12 +138,12 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 54px;
+  font-size: 0.9375rem;
+  line-height: 3.375rem;
   text-align: center;
   color: #ffffff;
   background-color: #ec7979;
   border: none;
   border-radius: 0 0 8px 8px;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }

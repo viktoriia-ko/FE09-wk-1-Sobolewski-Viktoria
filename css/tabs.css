@@ -1,32 +1,35 @@
 .tabs {
   width: 100%;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .tabs-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 -0.9375rem;
 }
 
 .tabs-list {
   display: flex;
   flex-direction: column;
+  margin: 0 0.9375rem;
 }
 
 .tabs-list-item {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   text-align: center;
   color: #ffffff;
   background-color: #333333;
-  padding: 45px 35px;
+  padding: 2.8125rem 2.1875rem;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
+  transition: 0.3s;
 }
 
 .tabs-list-item:hover {
@@ -35,16 +38,20 @@
 }
 
 .tabs-text {
-  max-width: 570px;
-  margin-left: 100px;
+  max-width: 32.25rem;
+  margin: 0 0.9375rem;
+}
+
+.tabs-png {
+  margin: 0 0.9375rem;
 }
 
 .tabs-text-title h2 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #000000;
 }
 
@@ -52,37 +59,37 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-transform: uppercase;
   color: #86878b;
-  margin-top: 58px;
+  margin-top: 3.625rem;
 }
 
 .tabs-text-discription h4 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-transform: uppercase;
   color: #86878b;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .tabs-download {
-  margin: 100px auto 0;
+  margin: 6.25rem auto 0;
 }
 
 .tabs-download a {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   color: #ffffff;
   text-decoration: none;
-  padding: 11px 31px;
+  padding: 0.6875rem 1.9375rem;
   text-align: center;
   border: 1px solid #ffffff;
   background-color: #ec7979;
