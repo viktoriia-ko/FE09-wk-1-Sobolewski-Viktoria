@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 958px) {
   html {
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   .container {
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 647px) {
   html {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -102,7 +102,7 @@
   }
   .tabs-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
   }
 
@@ -116,7 +116,7 @@
 }
 @media screen and (max-width: 476px) {
   html {
-    font-size: 0.688rem;
+    font-size: 11px;
   }
   .menu-list li {
     display: none;
@@ -131,7 +131,7 @@
     max-width: 360px;
   }
   html {
-    font-size: 0.6rem;
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 337px) {
@@ -140,7 +140,7 @@
   }
   html {
     overflow-x: hidden;
-    font-size: 0.563rem;
+    font-size: 8px;
   }
   .size1 {
     font-size: 1.5rem;
@@ -151,7 +151,7 @@
 }
 @media screen and (max-width: 277) {
   html {
-    font-size: 0.4rem;
+    font-size: 6pxm;
   }
   .social-media-icon-list {
     display: flex;
@@ -159,5 +159,8 @@
   }
   .social-media-icon {
     margin: 0;
+  }
+  .size1 {
+    font-size: 1.125rem;
   }
 }
