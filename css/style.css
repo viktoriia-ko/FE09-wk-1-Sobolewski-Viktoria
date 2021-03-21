@@ -58,7 +58,7 @@
   }
 
   .container {
-    max-width: 718px;
+    max-width: 818px;
   }
 
   .axit-row {
@@ -90,6 +90,9 @@
 @media screen and (max-width: 647px) {
   html {
     font-size: 12px;
+  }
+  .container {
+    max-width: 517px;
   }
 }
 
@@ -128,7 +131,7 @@
 }
 @media screen and (max-width: 393px) {
   .container {
-    max-width: 360px;
+    max-width: 320px;
   }
   html {
     font-size: 9px;
@@ -136,7 +139,7 @@
 }
 @media screen and (max-width: 337px) {
   .container {
-    max-width: 290px;
+    max-width: 270px;
   }
   html {
     overflow-x: hidden;
@@ -157,9 +160,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .social-media-icon {
-    margin: 0;
-  }
+
   .size1 {
     font-size: 1.125rem;
   }

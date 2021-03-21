@@ -36,7 +36,7 @@
 .social-media-icon-list {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
@@ -46,6 +46,13 @@
   margin: 0rem 1.5rem;
 }
 
+.social-media-icon:first-child {
+  margin-left: 0;
+}
+
+.social-media-icon:last-child {
+  margin-right: 0;
+}
 .size1 {
   color: #86878b;
   font-family: "Font Awesome 5 Free";
