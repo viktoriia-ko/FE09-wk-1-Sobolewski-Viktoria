@@ -40,12 +40,12 @@
 
 .content-data {
   flex-basis: 29.875rem;
-  margin: 00.9375rem;
+  margin: 0 0.9375rem;
 }
 
 .content-message {
   flex-basis: 29.875rem;
-  margin: 00.9375rem;
+  margin: 0 0.9375rem;
 }
 
 .content-data-item {
@@ -55,7 +55,6 @@
   font-size: 0.875rem;
   line-height: 1.1875rem;
   color: #bdbdbd;
-  max-width: 100%;
 }
 
 .content-message-item {
@@ -93,7 +92,6 @@
   border-bottom: 1px solid #bdbdbd;
   display: block;
   width: 100%;
-  flex-basis: 29.875rem;
 }
 
 textarea {

@@ -69,9 +69,10 @@
   .social-media-row {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
-  .social-media-icons {
+  .social-media-icon {
     margin-top: 2rem;
   }
 
@@ -151,14 +152,18 @@
   .tabs {
     padding-bottom: 0;
   }
+
+  .footer-sm-icon {
+    margin-bottom: 2rem;
+  }
+
+  .footer-copyright p {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 277) {
   html {
-    font-size: 6pxm;
-  }
-  .social-media-icon-list {
-    display: flex;
-    justify-content: space-between;
+    font-size: 6px;
   }
 
   .size1 {

@@ -36,9 +36,10 @@
 .social-media-icon-list {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .social-media-icon {
