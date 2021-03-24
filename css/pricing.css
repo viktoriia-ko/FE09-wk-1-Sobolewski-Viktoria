@@ -1,6 +1,6 @@
 .pricing {
   width: 100%;
-  padding: 6.25rem 0;
+  padding: 100px 0;
   background-color: #e5e5e5;
   background-size: cover;
 }
@@ -10,18 +10,18 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2.25rem;
-  line-height: 2.625rem;
+  line-height: 42px;
 
   color: #212121;
   text-align: center;
 }
 
 .pricing-line {
-  max-width: 4rem;
+  max-width: 64px;
   height: 2px;
   border: 1px solid #d98943;
   background-color: #d98943;
-  margin: 1.875rem auto;
+  margin: 30px auto;
 }
 
 .pricing-subtitle h3 {
@@ -29,7 +29,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
-  line-height: 1.1875rem;
+  line-height: 19px;
 
   color: #868788;
   text-align: center;
@@ -40,18 +40,19 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2.5rem -0.9375rem 0;
+  margin: 40px -15px 0;
 }
 
 .pricing-row-list {
   text-align: center;
-  margin: 0rem 0.9375rem 0.9375rem;
+  margin: 0 15px 15px;
   transition: 0.5s;
+  flex-basis: 340px;
 }
 
 .pricing-row-list:hover {
   position: relative;
-  bottom: 0.625rem;
+  bottom: 10px;
   box-shadow: 3px 3px 7px rgba(56, 55, 55, 0.5);
 }
 
@@ -60,19 +61,22 @@
   color: whitesmoke;
 }
 
+.pricing-row-list-items {
+  width: 100%;
+}
+
 .pricing-row-item1 {
   background-color: #333333;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 1.6875rem;
+  line-height: 27px;
   text-align: center;
   color: #ffffff;
   list-style: none;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.5625rem;
-  width: 21.25rem;
+  padding-top: 15px;
+  padding-bottom: 9px;
   border: 1px solid #e5e5e5;
 }
 
@@ -82,12 +86,12 @@
   font-style: normal;
   font-weight: bold;
   font-size: 2.1875rem;
-  line-height: 2.5625rem;
+  line-height: 41px;
   text-align: center;
   color: #ffffff;
   list-style: none;
-  padding-top: 1.625rem;
-  padding-bottom: 2.0625rem;
+  padding-top: 26px;
+  padding-bottom: 33px;
   border: 1px solid #e5e5e5;
 }
 
@@ -97,19 +101,19 @@
   font-style: normal;
   font-weight: 600;
   font-size: 0.875rem;
-  line-height: 1.1875rem;
+  line-height: 19px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   background-color: #333333;
   border: 1px solid #e5e5e5;
-  padding-top: 1.0625rem;
-  padding-bottom: 0.875rem;
+  padding-top: 17px;
+  padding-bottom: 14px;
 }
 
 .pricing-row-item4 {
   list-style: none;
   background-color: #ffffff;
-  line-height: 2.5rem;
+  line-height: 40px;
   border: 1px solid #e5e5e5;
   color: #86878b;
 }

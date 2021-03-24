@@ -1,6 +1,6 @@
 .awesome {
   width: 100%;
-  padding: 6.25rem 0;
+  padding: 100px 0;
 }
 
 .awesome-title h2 {
@@ -8,17 +8,17 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2.25rem;
-  line-height: 2.625rem;
+  line-height: 42px;
   color: #212121;
   text-align: center;
 }
 
 .awesome-line {
-  max-width: 4rem;
+  max-width: 64px;
   height: 2px;
   border: 1px solid #d98943;
   background-color: #d98943;
-  margin: 1.875rem auto;
+  margin: 30px auto;
 }
 
 .awesome-subtitle h3 {
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
-  line-height: 1.1875rem;
+  line-height: 19px;
 
   color: #868788;
   text-align: center;
@@ -34,21 +34,26 @@
 
 .awesome-row {
   display: flex;
-  margin-top: 3.75rem;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  /*flex-wrap: wrap;*/
 }
 
 .awesome-row-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 0rem auto 0.9375rem;
+  flex-direction: column;
+  max-width: 350px;
 }
 
 .awesome-img {
   border: 1px solid #d98943;
-  width: 4.375rem;
-  height: 4.375rem;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,31 +62,32 @@
 .awesome-img i {
   color: #f38627;
   font-family: "Font Awesome 5 Free";
-  font-size: 1.875rem;
+  font-size: 30px;
 }
 
 .awesome-img i {
   color: #f38627;
   font-family: "Font Awesome 5 Free";
-  font-size: 1.5625rem;
+  font-size: 25px;
 }
 
 .awesome-row-item-title h3 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 1.6875rem;
-  margin: 3.75rem 1.875rem;
+  line-height: 27px;
+  margin-top: 60px;
   color: #333333;
 }
 
 .awesome-row-item-discription p {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
-  line-height: 1.1875rem;
-  width: 21.875rem;
+  line-height: 19px;
+  width: 100%;
   color: #000000;
+  margin-top: 60px;
 }

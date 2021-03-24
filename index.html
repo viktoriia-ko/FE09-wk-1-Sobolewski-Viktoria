@@ -20,15 +20,21 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="menu-list-item"><a href="#feautures" class="menu-list-link">Feautures</a></li>
-            <li class="menu-list-item"><a href="#about" class="menu-list-link">About</a></li>
-            <li class="menu-list-item"><a href="#pricing" class="menu-list-link">Pricing</a></li>
-            <li class="menu-list-item"><a href="#reviews" class="menu-list-link">Reviews</a></li>
-            <li class="menu-list-item"><a href="#contact" class="menu-list-link">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="hamburger-menu">
+          <input id="menu_toggle" type="checkbox" />
+          <label class="menu_btn" for="menu_toggle">
+            <span></span>
+          </label>
+          <nav class="menu"> 
+            <ul class="menu-list">
+              <li class="menu-list-item"><a href="#feautures" class="menu-list-link">Feautures</a></li>
+              <li class="menu-list-item"><a href="#about" class="menu-list-link">About</a></li>
+              <li class="menu-list-item"><a href="#pricing" class="menu-list-link">Pricing</a></li>
+              <li class="menu-list-item"><a href="#reviews" class="menu-list-link">Reviews</a></li>
+              <li class="menu-list-item"><a href="#contact" class="menu-list-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="axit">
@@ -75,7 +81,7 @@
 
     <section class="social-media">
       <div class="container">
-        <div class="social-media-row">
+        <div class="social-media-row" id="about">
           <div class="social-media-name">
             <div class="social-media-title"><h2>Social Media</h2></div>
             <div class="social-media-subtitle"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h3></div>
@@ -97,16 +103,16 @@
 
     <section class="tabs">
       <div class="container">
-        <div class="tabs-row">
+        <div class="tabs-row" id="feautures">
           <div class="tabs-list">
-            <div class="tabs-list-item">TAB 1</div>
-            <div class="tabs-list-item">TAB 1</div>
-            <div class="tabs-list-item">TAB 1</div>
+            <div class="tabs-list-item"><p>TAB 1</p></div>
+            <div class="tabs-list-item"><p>TAB 2</p></div>
+            <div class="tabs-list-item"><p>TAB 3</p></div>
           </div>  
           <div class="tabs-text">
             <div class="tabs-text-title"><h2>TABS WITH SOFT TRANSITIONING EFFECT.</h2></div>
-            <div class="tabs-text-discription"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</h3></div>
-            <div class="tabs-text-discription"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aenean euismod bibendum laoreet.</h4></div>
+            <div class="tabs-text-discription paragraph1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p></div>
+            <div class="tabs-text-discription paragraph2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aenean euismod bibendum laoreet.</p></div>
             <div class="tabs-download"><a href="#">Download</a></div>
           </div>
           <div class="tabs-png"><img src="/image/tabs.png"></div>
@@ -193,7 +199,7 @@
             </ul>
           </div>
           <div class="pricing-row-list">
-            <ul>
+            <ul class="pricing-row-list-items">
               <li class="pricing-row-item1">Optima</li>
               <li class="pricing-row-item2">$20</li>
               <li class="pricing-row-item3">Free for life</li>
@@ -206,7 +212,7 @@
             </ul>
           </div>
           <div class="pricing-row-list">
-            <ul>
+            <ul class="pricing-row-list-items">
               <li class="pricing-row-item1">Pro</li>
               <li class="pricing-row-item2">$30</li>
               <li class="pricing-row-item3">Free for life</li>
@@ -333,7 +339,7 @@
             <div class="content-message">
               <div class="content-message-item">
                 <label for="contact-message">Message</label>
-                <textarea id="contact-message" name="contact-message" rows="" cols=""></textarea>
+                <textarea id="contact-message" name="contact-message"></textarea>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  padding: 1.5625rem 0;
+  padding: 25px 0;
   background-color: #000000;
   background-size: cover;
 }
@@ -8,15 +8,19 @@
 .menu-list::before {
   position: absolute;
   content: "";
-  width: 4rem;
-  height: 2rem;
+  width: 64px;
+  height: 32px;
   background-image: url("../image/axit-logo.png");
   background-repeat: no-repeat;
   display: inline-block;
   background-size: contain;
   vertical-align: middle;
-  top: 0rem;
-  left: 0rem;
+  top: 0;
+  left: 0;
+}
+
+#menu_toggle {
+  opacity: 0;
 }
 
 .menu-list {
@@ -29,11 +33,11 @@
 
 .menu-list-item {
   list-style: none;
-  margin-left: 3rem;
+  margin-left: 48px;
 }
 
 .menu-list-item:first-child {
-  margin-left: 0rem;
+  margin-left: 0;
 }
 
 .menu-list-item a {
@@ -42,7 +46,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 1.25rem;
+  line-height: 20px;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }

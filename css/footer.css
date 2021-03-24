@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  padding: 1.5625rem 00.9375rem;
+  padding: 25px 0 15px;
   background-color: #000000;
   background-size: cover;
 }
@@ -11,12 +11,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .footer-sm-icon {
   list-style: none;
-  margin: 0rem 1.5rem;
+  margin: 0 24px;
 }
 
 .size2 {
@@ -41,8 +41,8 @@
   font-style: normal;
   font-weight: normal;
   font-size: 0.75rem;
-  line-height: 1rem;
+  line-height: 16px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  margin: 1.125rem auto 0;
+  margin: 18px auto 0;
 }

@@ -1,6 +1,6 @@
 .tabs {
   width: 100%;
-  padding: 6.25rem 0;
+  padding: 100px 0;
 }
 
 .tabs-row {
@@ -8,28 +8,37 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -0.9375rem;
+  margin: 0 -15px;
 }
 
 .tabs-list {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin: 0 0.9375rem;
+  margin: 0 15px;
+  flex-basis: 110px;
 }
 
 .tabs-list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  width: 100%;
+  padding: 45px 0;
+}
+.tabs-list-item p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 0.9375rem;
-  line-height: 1.25rem;
   text-align: center;
   color: #ffffff;
-  background-color: #333333;
-  padding: 2.8125rem 2.1875rem;
-  border-radius: 8px;
-  margin-bottom: 0.625rem;
-  transition: 0.3s;
+  display: block;
+  margin: auto;
 }
 
 .tabs-list-item:hover {
@@ -38,12 +47,12 @@
 }
 
 .tabs-text {
-  max-width: 32.25rem;
-  margin: 0 0.9375rem;
+  max-width: 516px;
+  margin: 0 15px;
 }
 
 .tabs-png {
-  margin: 0 0.9375rem;
+  margin: 0 15px;
 }
 
 .tabs-text-title h2 {
@@ -51,34 +60,30 @@
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 1.6875rem;
+  line-height: 27px;
   color: #000000;
 }
 
-.tabs-text-discription h3 {
+.tabs-text-discription {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
-  line-height: 1.1875rem;
+  line-height: 19px;
   text-transform: uppercase;
   color: #86878b;
-  margin-top: 3.625rem;
 }
 
-.tabs-text-discription h4 {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.875rem;
-  line-height: 1.1875rem;
-  text-transform: uppercase;
-  color: #86878b;
-  margin-top: 1.25rem;
+.paragraph1 p {
+  margin-top: 58px;
+}
+
+.paragraph2 p {
+  margin-top: 20px;
 }
 
 .tabs-download {
-  margin: 6.25rem auto 0;
+  margin: 100px auto 0;
 }
 
 .tabs-download a {
@@ -86,10 +91,10 @@
   font-style: normal;
   font-weight: 600;
   font-size: 0.9375rem;
-  line-height: 1.25rem;
+  line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-  padding: 0.6875rem 1.9375rem;
+  padding: 11px 31px;
   text-align: center;
   border: 1px solid #ffffff;
   background-color: #ec7979;
