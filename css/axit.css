@@ -105,7 +105,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 1.25rem;
-  line-height: 27px;
+
   text-align: center;
   color: #333333;
   padding: 15px 0 45px;
@@ -115,17 +115,21 @@
   color: #ec7979;
 }
 
-.form-content-item {
+.form-content-items {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
-  line-height: 19px;
   align-items: left;
   color: #bdbdbd;
 }
 
-.form-content-item input {
+.form-content-items label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-content-items input {
   border: none;
   border-bottom: 1px solid #bdbdbd;
   display: block;
