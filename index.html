@@ -16,15 +16,16 @@
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="hamburger-menu">
-          <input id="menu_toggle" type="checkbox" />
-          <label class="menu_btn" for="menu_toggle">
+        <div class="header-menu">
+          <div class="hamburger-menu">
             <span></span>
-          </label>
+          </div>
           <nav class="menu"> 
             <ul class="menu-list">
               <li class="menu-list-item"><a href="#feautures" class="menu-list-link">Feautures</a></li>
@@ -72,8 +73,8 @@
                   <input type="password" id="password" name="password"><br><br>
                 </div>
               </div>
-            </form>
               <button type="submit" class="axit-form axit-form-button">Get Started</button>
+            </form>  
           </div>
         </div>
       </div>
@@ -343,8 +344,8 @@
               </div>
             </div>
           </div>
+          <button class="contact-message contact-form-button" type="submit">Send Message</button>
         </form>        
-        <button class="contact-message contact-form-button" type="submit">Send Message</button>
     </section>
 
     <footer class="footer">
