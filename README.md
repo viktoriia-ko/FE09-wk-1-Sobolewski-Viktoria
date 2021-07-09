@@ -1,1 +1,1 @@
-Landing
+Single-page website
